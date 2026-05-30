@@ -1,0 +1,32 @@
+
+
+body{
+        background-color: grey;
+    }
+    h1{
+
+        font-size: large;
+        color:white
+    }
+    .tabcla{
+        border: 1px solid #000;
+        width: 400px;
+        background-color: white;
+        margin: black;
+    }
+    th, td{
+        padding: 10px;
+        border: 1px solid #000;
+    }
+    button
+    {
+background-color: aqua;
+transition-duration: 0.4s;
+    }
+
+    
+
+button:hover {
+  background-color: green;
+  color: white;
+}
