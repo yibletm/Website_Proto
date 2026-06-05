@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+     <title>
+        Sign in
+    </title>
+</head>
+
+<h2> Enter a username and password in the following boxs</h2>
+
+<form>
+
+    <label for="uname"> username:</label>
+    <input type="text", id="uname", name="uname">
+    <label for="passw"> password:</label>
+    <input type="text", id="passw", name="passw">
+
+</form>
+<button type="button", id="albu">Submit</button>
+<script>
+const form = document.querySelector('form');
+const isFormEmpty = Array.from(form.elements).every(element => {
+  // Only check fields meant for user text input
+  if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+    return element.value.trim() === ''; 
+  }
+  if (element.tagName === 'SELECT') {
+    return element.value === '';
+  }
+  return true; // Ignore buttons, fieldsets, etc.
+});
+
+    const button = document.getElementById("albu");
+  
+
+button.addEventListener("click", function() {
+const uname = document.getElementById("uname").value
+const passw = document.getElementById("passw").value
+    
+    if(isFormEmpty)
+{
+    alert("Username has "+uname.length+" characters while password has "+passw.length+" characters")
+    alert("Try again");
+    document.querySelector('#myForm').reset();
+    
+}
+else
+{
+    alert("Both fields are empty. Try again");
+}
+})
+    
+{
+    
+}
+
+
+</script>
+
+
+</html>
