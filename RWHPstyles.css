@@ -4,22 +4,29 @@ body{
 }
 
 title{
+     text-align: center;
     color:rgb(122, 255, 197)
 }
 
 h3{
+    text-align: center;
 color:rgb(122, 255, 197)
 }
 h2{
+    
+  text-align: center;
 color:rgb(122, 255, 197)
 }
 h1{
+     text-align: center;
 color:rgb(122, 255, 197)
 }
 
 #rea, #wri{
-
+    text-align: center;
     background-color:purple;
-
     color: rgb(0, 110, 255);
+    font-size: large;
+    font-weight: bolder;
+    padding: 12px 24px;
 }
