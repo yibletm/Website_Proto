@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(106, 17, 189);
+}
+
+title{
+    color:rgb(122, 255, 197)
+}
+
+h3{
+color:rgb(122, 255, 197)
+}
+h2{
+color:rgb(122, 255, 197)
+}
+h1{
+color:rgb(122, 255, 197)
+}
+
+#rea, #wri{
+
+    background-color:purple;
+
+    color: rgb(0, 110, 255);
+}
