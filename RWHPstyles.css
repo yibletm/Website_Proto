@@ -22,6 +22,10 @@ h1{
 color:rgb(122, 255, 197)
 }
 
+.wrapper{
+text-align: center;
+}
+
 #rea, #wri{
     text-align: center;
     background-color:purple;
